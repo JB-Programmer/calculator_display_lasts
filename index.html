@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI web</title>
+    
+    <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+
+<body>
+        <p>Calculator:</p>
+        <input id="num1" type="text" class="inputs" value="" placeholder="Pepito">
+        <input id="num2" class="inputs" type="text" value="" placeholder="Second term">
+        <br><br>
+        <p>Operation</p>
+        <input id="sumar" type="radio" name="op" value="sumar" checked="checked"> Sumar
+        <input id="restar" type="radio" name="op" value="restar"> Minus
+        <input id="multi" type="radio" name="op" value="multiplicar"> Multiply
+        <input id="divi" type="radio" name="op" value="dividir"> Divide
+        <br><br>
+        <p>Result:</p>
+        <input id="resul" type="text" value="" placeholder="Here will be the result">
+        <button id="calcu" value="Calculate now!">Calculate Now</button>
+
+    
+    
+    <section id="lastOperations">
+        Last operations
+        <div id="cuadroOperaciones"></div>
+    </section>
+    
+    
+    
+    <script src="javascript/script.js"></script>
+</body>
+</html>
