@@ -1,39 +1,33 @@
 <!DOCTYPE html>
+
+<!--ME FALTA CREAR EN EL JAVASCRIPT UNA FUNCION QUE ME BORRE LA INFORMACION-->
+
+
 <html lang="">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MI web</title>
-    
+    <title></title>
     <link rel="stylesheet" href="css/main.css">
-
-
 </head>
 
 <body>
-        <p>Calculator:</p>
-        <input id="num1" type="text" class="inputs" value="" placeholder="Pepito">
-        <input id="num2" class="inputs" type="text" value="" placeholder="Second term">
-        <br><br>
-        <p>Operation</p>
-        <input id="sumar" type="radio" name="op" value="sumar" checked="checked"> Sumar
-        <input id="restar" type="radio" name="op" value="restar"> Minus
-        <input id="multi" type="radio" name="op" value="multiplicar"> Multiply
-        <input id="divi" type="radio" name="op" value="dividir"> Divide
-        <br><br>
-        <p>Result:</p>
-        <input id="resul" type="text" value="" placeholder="Here will be the result">
-        <button id="calcu" value="Calculate now!">Calculate Now</button>
-
+    <input id="num1" type="number">Input1
+    <input id="num2" type="number">Input2
+    <input name="op" type="radio" checked value="sumar">Sumar
+    <input name="op" type="radio" value="restar">Restar
+    <input name="op" type="radio" value="multiplicar">Multiplicar
+    <input name="op" type="radio" value="dividir">Dividir
+    <button id="calcu">Calcular Ahora</button>
+    <input id="resul" type="text" readonly="readonly">
     
     
-    <section id="lastOperations">
-        Last operations
-        <div id="cuadroOperaciones"></div>
+    <section id="resSection">Resultado:
+    <div id="cuadroOperaciones"></div> <!--preguntar al profesor por que se escapa el texto del cuadro  si el ancho lo he definido en css-->
     </section>
-    
-    
-    
     <script src="javascript/script.js"></script>
+    
+    
+
 </body>
 </html>
